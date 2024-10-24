@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    display: flex; /* Menggunakan Flexbox untuk menyusun elemen secara horizontal */
+    justify-content: space-between; /* Jarak yang sama di antara profil */
+}
+
+.profile {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 23%; /* Lebar profil ditentukan agar bisa pas di satu baris */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.profile img {
+    width: 100%; /* Membuat gambar responsif */
+    height: auto; /* Mengatur tinggi otomatis */
+    border-radius: 8px 8px 0 0; /* Membuat sudut gambar bulat */
+}
+
+.info {
+    text-align: left; /* Menyusun teks ke kiri */
+}
+
+.info h2 {
+    margin: 0; /* Menghapus margin default */
+    font-size: 1.2em; /* Ukuran font untuk nama */
+}
